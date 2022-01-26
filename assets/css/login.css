@@ -1,55 +1,65 @@
-html,
-body {
+html,body{
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
-  background: url('/assets/images/login_bg.jpg') no-repeat center;
-  background-size: cover;
+  /* background: url(/assets/images/login_bg.jpg)no-repeat center; */
+  /* background-size: cover; */
 }
-
-.loginAndRegBox {
-  width: 400px;
+/* .bg-picture{
+  
+  width: 700px;
+  height: 500px;
+} */
+.bg-picture img{
+  width: 700px;
+  height: 500px;
+}
+.loginAndRegBox{
+  width:400px ;
   height: 310px;
-  background-color: #fff;
+  background-color: rgba(7, 105, 252, 0.418);
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  left: 60%;
+  top: 20%;
+  /* transform: translate(-50%,0%); */
 }
-
-.title-box {
+.title-box{
   height: 60px;
-  background: url('/assets/images/login_title.png') no-repeat center;
+  text-align: center;
+  font-size: 35px;
+  color: #fff
 }
-
-.reg-box {
-  display: none;
-}
-
-.layui-form {
+.layui-form{
   padding: 0 30px;
 }
+.reg-box{
+  display: none;
+}
+/* .input-color{
+  background-color: rgba(235, 164, 106, 0.5);
+} */
+.button-color{
+  background-color: rgb(68, 0, 255);
+}
 
-.links {
+/* 右对齐 */
+.links{
   display: flex;
   justify-content: flex-end;
 }
-
-.links a {
-  font-size: 12px;
+.links a{
+  font-size: 13px;
 }
-
-.layui-form-item {
+.layui-form-item{
   position: relative;
 }
-
-.layui-icon {
+.layui-icon{
   position: absolute;
   left: 10px;
   top: 10px;
 }
-
-.layui-input {
+.layui-input{
   padding-left: 32px;
+  background-color: rgba(85, 162, 250, 0.5);
 }
